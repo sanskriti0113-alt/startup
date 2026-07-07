@@ -1,0 +1,581 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meviox | Certified Medical Care at Home</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      sizes="128x128"
+      href="static/favicon.ico"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="static/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="page-wrapper" class="site-layout-wrapper">
+      <div class="top-announcement">
+        <p>
+          <span class="live-dot"></span>
+          Verified medical team on duty — average response under 2 minutes
+        </p>
+      </div>
+
+      <section id="home" class="hero-premium">
+        <div class="hero-overlay">
+          <header class="main-header">
+            <div class="logo">
+              <!-- FIX: removed invalid height="150l" attribute (not a valid
+                   number, so browsers ignored it anyway). Sizing is now
+                   handled entirely and reliably by CSS: .main-header .logo img -->
+              <img height="150" src="static/img/logo.jpeg" alt="Meviox" />
+            </div>
+            <nav class="desktop-nav">
+              <a href="#services">Our Services</a>
+              <a href="#how-it-works">How It Works</a>
+              <a href="#experts-with-us">Doctors with us</a>
+              <a href="#testimonials">Reviews</a>
+              <a href="#faqs">FAQs</a>
+            </nav>
+            <button class="nav-cta open-modal-btn">Consult Now</button>
+          </header>
+
+          <div class="hero-grid-container">
+            <div class="hero-text-block">
+              <div class="trust-pill">
+                <i class="fa-solid fa-shield-halved"></i> 100% certified doctors
+                &amp; nurses
+              </div>
+              <h1>
+                Certified clinical care,<br />
+                delivered gently<span class="accent"> at home.</span>
+              </h1>
+              <p>
+                Skip the waiting room. Meviox connects your family to
+                background-verified physicians and skilled nurses for home
+                clinical care — in minutes, not hours.
+              </p>
+
+              <div class="hero-cta-group">
+                <button class="magnet-trigger-btn open-modal-btn">
+                  <span class="pulse-ring"></span>
+                  <i class="fa-solid fa-bolt"></i> Consult a Doctor Instantly
+                </button>
+              </div>
+
+              <div class="micro-trust">
+                <span
+                  ><i class="fa-solid fa-circle-check"></i> Govt. registered
+                  doctors</span
+                >
+                <span
+                  ><i class="fa-solid fa-lock"></i> Encrypted &amp;
+                  private</span
+                >
+                <span
+                  ><i class="fa-solid fa-star"></i> 4.9/5 average rating</span
+                >
+              </div>
+            </div>
+
+            <div class="hero-visual">
+              <div class="vital-card">
+                <div class="vital-card-row">
+                  <span class="vital-label">Response time</span>
+                  <span class="vital-value">&lt; 2 min</span>
+                </div>
+                <svg
+                  class="pulse-line"
+                  viewBox="0 0 300 60"
+                  preserveAspectRatio="none"
+                >
+                  <polyline points="0,30 60,30 75,10 90,50 105,30 300,30" />
+                </svg>
+                <!-- <div class="vital-card-row">
+                  <span class="vital-label">Doctors online now</span>
+                  <span class="vital-value">27</span>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section-padding services-section">
+        <div class="center-heading">
+          <span class="section-tag">Clinical Offerings</span>
+          <h2>Select the care your family needs</h2>
+          <p>
+            Choose a specialty below to connect directly with a Meviox
+            specialist on WhatsApp.
+          </p>
+        </div>
+
+        <div class="premium-services-grid">
+          <a
+            href="https://wa.me/919729644570?text=Hello%20Meviox,%20I%20need%20medical%20consultation%20regarding%20High%20Fever%20and%20Flu%20symptoms."
+            target="_blank"
+            class="premium-card"
+          >
+            <div class="card-icon">
+              <i class="fa-solid fa-temperature-three-quarters"></i>
+            </div>
+            <h3>Fever &amp; General Medicine</h3>
+            <p>
+              Consultations for fevers, respiratory infections, cold symptoms,
+              and immediate prescriptions.
+            </p>
+            <div class="card-footer-link">
+              Consult doctor <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </a>
+
+          <a
+            href="https://wa.me/919729644570?text=Hello%20Meviox,%20I%20want%20to%20book%20a%20Physiotherapy%20session%20at%20home."
+            target="_blank"
+            class="premium-card"
+          >
+            <div class="card-icon"><i class="fa-solid fa-kit-medical"></i></div>
+            <h3>Advanced Physiotherapy</h3>
+            <p>
+              Post-surgical rehab, chronic joint &amp; back pain management, and
+              recovery plans by trained therapists.
+            </p>
+            <div class="card-footer-link">
+              Book therapist <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </a>
+
+          <a
+            href="https://wa.me/919729644570?text=Hello%20Meviox,%20I%20need%20expert%20advice%20for%20a%20Skin%20issue%20/%20Dermatology."
+            target="_blank"
+            class="premium-card"
+          >
+            <div class="card-icon"><i class="fa-solid fa-allergies"></i></div>
+            <h3>Dermatology Consults</h3>
+            <p>
+              Visual assessments for rashes, allergies, fungal infections, acne,
+              and other skin concerns.
+            </p>
+            <div class="card-footer-link">
+              Send photos <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </a>
+
+          <a
+            href="https://wa.me/919729644570?text=Hello%20Meviox,%20I%20urgently%20need%20a%20Veterinary%20doctor%20for%20my%20pet."
+            target="_blank"
+            class="premium-card"
+          >
+            <div class="card-icon"><i class="fa-solid fa-paw"></i></div>
+            <h3>Veterinary Care</h3>
+            <p>
+              Qualified virtual and home diagnostics for pets, dietary health
+              checks, and treatment plans.
+            </p>
+            <div class="card-footer-link">
+              Connect to vet <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </a>
+
+          <a
+            href="https://wa.me/919729644570?text=Hello%20Meviox,%20I%20need%20a%20trained%20nurse%20for%20Home%20Wound%20Dressing."
+            target="_blank"
+            class="premium-card"
+          >
+            <div class="card-icon"><i class="fa-solid fa-user-nurse"></i></div>
+            <h3>Surgical Wound Dressing</h3>
+            <p>
+              Home nurse visits for sterile dressing changes, bedsore care,
+              suture removal, and injections.
+            </p>
+            <div class="card-footer-link">
+              Request nurse <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </a>
+
+          <a
+            href="https://wa.me/919729644570?text=Hello%20Meviox,%20I%20want%20to%20enquire%20about%20Long-term%20Elder%20Care%20packages."
+            target="_blank"
+            class="premium-card"
+          >
+            <div class="card-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+            <h3>Geriatric Elder Care</h3>
+            <p>
+              Long-term medical assistance for seniors — vitals tracking,
+              medication schedules, and routine check-ins.
+            </p>
+            <div class="card-footer-link">
+              Get assistance <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section id="how-it-works" class="section-padding timeline-section">
+        <div class="center-heading">
+          <span class="section-tag">Patient Journey</span>
+          <h2>Getting expert help is fast &amp; simple</h2>
+        </div>
+        <div class="timeline-container">
+          <div class="step-item">
+            <div class="step-number">01</div>
+            <h3>Share your details</h3>
+            <p>
+              Tap the consultation button and tell us your location and
+              symptoms.
+            </p>
+          </div>
+          <div class="step-item">
+            <div class="step-number">02</div>
+            <h3>We locate you</h3>
+            <p>
+              Your coordinates are securely packaged into a live map link, no
+              typing required.
+            </p>
+          </div>
+          <div class="step-item">
+            <div class="step-number">03</div>
+            <h3>Receive care</h3>
+            <p>
+              Get a digital prescription over chat, or a nurse dispatched to
+              your door.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="experts-with-us" class="section-padding experts-section">
+        <div class="center-heading">
+          <span class="section-tag">Meet The Team</span>
+          <h2>Experts with us</h2>
+          <p>
+            Background-verified doctors, nurses, physiotherapists &amp; vets —
+            ready to care for your family.
+          </p>
+        </div>
+
+        <div class="expert-filter-tabs">
+          <button class="expert-tab active-tab" data-filter="all">All</button>
+          <button class="expert-tab" data-filter="doctor">Doctors</button>
+          <button class="expert-tab" data-filter="nurse">Nurses</button>
+          <button class="expert-tab" data-filter="physio">
+            Physiotherapists
+          </button>
+          <button class="expert-tab" data-filter="vet">Vets</button>
+        </div>
+
+        <div class="experts-grid" id="experts-grid">
+          <div class="expert-card" data-role="doctor">
+            <img
+              class="expert-photo"
+              src="https://randomuser.me/api/portraits/men/32.jpg"
+              alt="Dr. Rohan Verma"
+            />
+            <h4 class="expert-name">Dr. Rohan Verma</h4>
+            <span class="expert-role">General Medicine</span>
+            <p class="expert-exp">
+              12+ years treating fevers &amp; infections. MBBS, MD.
+            </p>
+          </div>
+
+          <div class="expert-card" data-role="doctor">
+            <img
+              class="expert-photo"
+              src="https://randomuser.me/api/portraits/women/44.jpg"
+              alt="Dr. Anjali Nair"
+            />
+            <h4 class="expert-name">Dr. Anjali Nair</h4>
+            <span class="expert-role">Dermatology</span>
+            <p class="expert-exp">
+              9 years in clinical dermatology &amp; skin allergy care.
+            </p>
+          </div>
+
+          <div class="expert-card" data-role="nurse">
+            <img
+              class="expert-photo"
+              src="https://randomuser.me/api/portraits/women/68.jpg"
+              alt="Sister Priya Menon"
+            />
+            <h4 class="expert-name">Priya Menon</h4>
+            <span class="expert-role">Registered Nurse</span>
+            <p class="expert-exp">
+              8 years in wound dressing &amp; home post-op care.
+            </p>
+          </div>
+
+          <div class="expert-card" data-role="physio">
+            <img
+              class="expert-photo"
+              src="https://randomuser.me/api/portraits/men/76.jpg"
+              alt="Karan Mehta"
+            />
+            <h4 class="expert-name">Karan Mehta</h4>
+            <span class="expert-role">Physiotherapist</span>
+            <p class="expert-exp">
+              10 years in post-surgical &amp; sports rehab.
+            </p>
+          </div>
+
+          <!-- Hidden by default, revealed on "View More" -->
+          <div class="expert-card extra-expert" data-role="doctor">
+            <img
+              class="expert-photo"
+              src="https://randomuser.me/api/portraits/men/51.jpg"
+              alt="Dr. Sameer Kulkarni"
+            />
+            <h4 class="expert-name">Dr. Sameer Kulkarni</h4>
+            <span class="expert-role">Geriatric Care</span>
+            <p class="expert-exp">
+              15 years specializing in elder &amp; chronic care.
+            </p>
+          </div>
+
+          <div class="expert-card extra-expert" data-role="nurse">
+            <img
+              class="expert-photo"
+              src="https://randomuser.me/api/portraits/women/22.jpg"
+              alt="Neha Joshi"
+            />
+            <h4 class="expert-name">Neha Joshi</h4>
+            <span class="expert-role">Registered Nurse</span>
+            <p class="expert-exp">
+              6 years in geriatric &amp; palliative home nursing.
+            </p>
+          </div>
+
+          <div class="expert-card extra-expert" data-role="physio">
+            <img
+              class="expert-photo"
+              src="https://randomuser.me/api/portraits/women/51.jpg"
+              alt="Divya Rao"
+            />
+            <h4 class="expert-name">Divya Rao</h4>
+            <span class="expert-role">Physiotherapist</span>
+            <p class="expert-exp">
+              7 years in chronic joint &amp; back pain therapy.
+            </p>
+          </div>
+
+          <div class="expert-card extra-expert" data-role="vet">
+            <img
+              class="expert-photo"
+              src="https://randomuser.me/api/portraits/men/85.jpg"
+              alt="Dr. Arjun Singh"
+            />
+            <h4 class="expert-name">Dr. Arjun Singh</h4>
+            <span class="expert-role">Veterinary Doctor</span>
+            <p class="expert-exp">
+              11 years in small animal diagnostics &amp; treatment.
+            </p>
+          </div>
+        </div>
+
+        <div class="expert-view-more-wrap">
+          <button id="view-more-experts" class="expert-view-more-btn">
+            View more experts <i class="fa-solid fa-chevron-down"></i>
+          </button>
+        </div>
+      </section>
+
+      <section id="testimonials" class="section-padding reviews-section">
+        <div class="center-heading">
+          <span class="section-tag">Patient Stories</span>
+          <h2>What families say about Meviox</h2>
+        </div>
+        <div class="reviews-grid">
+          <div class="review-box">
+            <div class="rating-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="review-text">
+              When my father's surgical dressing came loose late at night,
+              Meviox sent a home care nurse within 45 minutes. Exceptional, fast
+              service.
+            </p>
+            <h4 class="reviewer">Aarav Sharma, New Delhi</h4>
+          </div>
+          <div class="review-box">
+            <div class="rating-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="review-text">
+              Consulted an online dermatologist on WhatsApp for my child's rash.
+              A prescription was issued within 10 minutes. Fully trusted.
+            </p>
+            <h4 class="reviewer">Meera Patel, Mumbai</h4>
+          </div>
+        </div>
+      </section>
+
+      <section id="faqs" class="section-padding faq-section">
+        <div class="center-heading">
+          <span class="section-tag">Answering Doubts</span>
+          <h2>Frequently asked questions</h2>
+        </div>
+        <div class="faq-container">
+          <div class="faq-item">
+            <div class="faq-question">
+              Are the doctors working with Meviox certified?
+              <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                Yes. Every professional practicing under Meviox holds verified
+                medical registrations and active state medical council licenses.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              Is my healthcare information private?
+              <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                100%. Chats, lab reports, and medication histories are handled
+                within WhatsApp's end-to-end encrypted messaging, keeping your
+                information secure.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <button
+        class="floating-trust-badge open-modal-btn"
+        style="border: none; cursor: pointer"
+      >
+        <i class="fa-solid fa-user-doctor"></i> <span>Request Doctor Now</span>
+      </button>
+
+      <footer>
+        <div class="footer-inner">
+          <div class="footer-col footer-brand">
+            <div class="logo">Meviox</div>
+            <p>Certified medical care, delivered to your door.</p>
+          </div>
+          <div class="footer-col">
+            <h5>Quick Links</h5>
+            <a href="#services">Our Services</a>
+            <a href="#how-it-works">How It Works</a>
+            <a href="#testimonials">Reviews</a>
+            <a href="#faqs">FAQs</a>
+          </div>
+          <div class="footer-col">
+            <h5>Contact</h5>
+            <a href="https://wa.me/919729644570" target="_blank"
+              ><i class="fa-brands fa-whatsapp"></i> WhatsApp Us</a
+            >
+          </div>
+          <div class="footer-col">
+            <h5>Follow</h5>
+            <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            © 2026 Meviox Medical Services. If you are experiencing
+            life-threatening symptoms or a cardiac emergency, please contact
+            your local emergency ambulance service immediately.
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <div id="medical-modal" class="side-panel-wrapper">
+      <div class="panel-window">
+        <button class="close-modal-btn">×</button>
+        <div class="modal-header">
+          <i class="fa-solid fa-user-doctor"></i>
+          <h2>Start your consultation</h2>
+          <p>
+            Share a few details to connect with the doctor on call, right now.
+          </p>
+        </div>
+        <form id="triage-form" class="modal-form">
+          <div class="input-group">
+            <label
+              ><i class="fa-solid fa-location-dot"></i> Patient's current
+              location</label
+            >
+
+            <button
+              type="button"
+              id="detect-gps-btn"
+              class="gps-trigger-action"
+            >
+              <i class="fa-solid fa-crosshairs"></i> Detect my GPS location
+            </button>
+
+            <div class="location-divider"><span>OR</span></div>
+
+            <div class="location-input-wrapper">
+              <input
+                type="text"
+                id="patient-location"
+                placeholder="Type your address, city, or locality manually..."
+                required
+              />
+              <div id="gps-loader" class="gps-spinner hidden">
+                <i class="fa-solid fa-circle-notch fa-spin"></i>
+              </div>
+            </div>
+          </div>
+          <div class="input-group">
+            <label for="patient-name"
+              ><i class="fa-solid fa-user"></i> Full name</label
+            >
+            <textarea
+              id="patient-name"
+              rows="1"
+              placeholder=""
+              required
+            ></textarea>
+          </div>
+          <div class="input-group">
+            <label for="patient-issue"
+              ><i class="fa-solid fa-notes-medical"></i> Describe medical
+              symptoms or assistance needed</label
+            >
+            <textarea
+              id="patient-issue"
+              rows="4"
+              placeholder="e.g., High fever since morning along with severe headache..."
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="modal-submit-btn">
+            <i class="fa-brands fa-whatsapp"></i> Start instant consultation
+          </button>
+          <div class="form-privacy-note">
+            <i class="fa-solid fa-lock"></i> End-to-end encrypted medical
+            privacy protocols apply.
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="static/js/script.js"></script>
+  </body>
+</html>
